@@ -1,0 +1,398 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(2, 34, 63);
+    color: white;
+}
+.logo {
+    text-decoration: none;     /* Remove underline */
+    font-size: 24px;           /* Adjust font size as needed */
+    font-weight: bold;         /* Make text bold */
+    color: #fbfcfb;               /* Set text color (change hex as desired) */
+    font-family: Arial, sans-serif; /* Choose a font family */
+  }
+  
+  .logo:hover {
+    color: #007acc;            /* Change color on hover */
+    cursor: pointer;           /* Show pointer on hover */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  .btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #00a2ff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    position: absolute;
+    top:-40px;
+  
+}
+.icons{
+    font-size: 50px;
+    position: absolute;
+    top:900px;
+    left: 240px;
+}
+.btn:hover {
+    background: #00a2ff;
+}
+/*header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} */
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+#home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Contact Form Styles */
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+
+#contact-form input, #contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+#contact-form button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+
+  
+
+.img-Kele {
+    width: 530px;  /* Set desired width */
+    height: 650px; /* Set desired height */
+    border-radius: 10%; /* Makes the image circular */
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.Kele{
+    size: 100px;
+    width: 400px;  
+    height: 300px;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 900px;
+   
+}
+img{
+    width: 60px;
+    height: 60px;
+  }
+  .container{
+    display: grid;
+    padding: 60px 9% 0;
+ 
+  }
+  .container__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 15px;
+  }
+  .container .container__box .box{
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 5px 5px 6px #333;
+    text-align: center;
+    padding: 20px 30px;
+  }
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: .2s, linear;
+  }
+  .container__heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #e3e3e3;
+    text-shadow: 0 0 10px black;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .container .container__box .box h3{
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .container .container__box .box p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #555;
+  }
+  .container .container__box .box a{
+    border-radius: 4px;
+    background:#444;
+    color: white;
+  }
+  .container .container__box .box a:hover{
+    background: #908080;
+  }
+has context menu
+
+/* Styles for vertical navigation */
+/*.nav-container ul {
+    list-style-type: none;  
+    padding: 0;
+    width: 200px;        
+    background-color: #333;
+}
+
+.nav-container ul li {
+    display: block;        
+    margin: 0;              
+}
+
+.nav-container ul li a {
+    display: block;
+    padding: 1rem;
+    color: #fff;            
+    text-decoration: none; 
+    text-align: center;
+}
+
+.nav-container ul li a:hover {
+    background-color: #555; 
+} */
+
+
+header{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+      
+    background-color: rgb(35, 36, 37);
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    
+    }
+
+    nav {
+        font-size: 20px;
+        color: #34495E;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 500;
+        height: 40px;
+        transition: 0.3s ease;   
+   
+        
+    }
+ 
+    nav a{
+        color: #fff;
+        justify-content: space-between;
+        align-items: left;
+        
+    }
+    #home{
+        width: 100%;
+        height: 100vh;
+        background-image:url(img/bg2.jpg) ;
+        background-size: cover;
+        background-position:center;
+        color: #fff;
+        
+    }
+    .text{
+        position: absolute;
+        bottom: 300px;
+        left: 650px;
+    }
+    .sidemenu {
+    
+        /* left: 0;
+        top: 0; */
+        width: 100%;
+        /* padding: 25px 9%; */
+        display: flex;
+        gap: 35px;
+        /* justify-content: space-between; */
+        margin-right: 80px;
+        z-index: 100;
+        justify-content: right;
+    }
+     
+    /* .sidemenu .logo {
+        font-size: 30px;
+        font-weight: 700;
+        
+    } */
+     
+    /* .sidemenu ul {
+        display: flex;  
+    } */
+     
+    /* .sidemenu ul {
+        list-style: none;
+        margin-left: 40px;
+    }
+     
+    .sidemenu ul li a {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 3.5rem;
+        transition: .5s;
+    } */
+    .sidemenu ul li :hover a {
+        color: rgb(131, 11, 243);
+    }
+    img2{
+        width: 60px;
+        height: 60px;
+      }
+      .container{
+        display: grid;
+        padding: 60px 9% 0;
+     
+      }
+      .container__box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+        gap: 15px;
+      }
+      .container .container__box .box{
+        background: #fff;
+        border-radius: 6px;
+        box-shadow: 5px 5px 6px #333;
+        text-align: center;
+        padding: 20px 30px;
+      }
+  
+      .container__heading{
+        text-align: center;
+        padding-bottom: 15px;
+        color: #e3e3e3;
+        text-shadow: 0 0 10px black;
+        font-size: 50px;
+        font-weight: 600;
+      }
+      .container .container__box .box h3{
+        color: #444;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .container .container__box .box p{
+        font-size: 14px;
+        font-weight: 100;
+        color: #555;
+      }
+      .container .container__box .box a{
+        border-radius: 4px;
+        background:#444;
+        color: white;
+      }
+      .container .container__box .box a:hover{
+        background: #908080;
+      }
+   
+      #services {
+        padding: 30px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+     
+    .services-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+     
+    .services-list div {
+        background: #70a0df;
+        padding: 40px;
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 10px;
+        transition: background 0.5s, transform 0.5s;
+    }
+     
+    .services-list div i {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+     
+    .services-list div h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+     
+    .services-list div a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+     
+    .services-list div:hover {
+        background: #304c5c;
+        transform: translateY(-10px);
+    }
