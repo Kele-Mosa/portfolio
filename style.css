@@ -92,6 +92,15 @@ p {
 }
 
 /* Contact Form */
+
+.section{
+  min-height: 100vh;
+}
+
+.anchor-link{
+  scroll-margin: 120px;
+}
+
 #contact-form {
     max-width: 600px;
     margin: 0 auto;

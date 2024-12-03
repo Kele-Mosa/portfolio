@@ -1,0 +1,25 @@
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, feel free to send me a message using the form below or reach out via my social links!</p>
+        <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required minlength="2">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required minlength="10"></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social-icons">
+            <h3>Follow Me</h3>
+            <a href="https://github.com/Kele-Mosa" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kelebohile-mokone/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:kelebohile@example.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</section>
