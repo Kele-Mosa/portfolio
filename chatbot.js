@@ -89,3 +89,21 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Send button, chat message input, or chat window not found');
     }
 });
+const chatbotContainer = document.getElementById("chatbot-container");
+const closeButton = document.getElementById("close-btn");
+
+// Close the chatbot
+closeButton.addEventListener("click", () => {
+  chatbotContainer.classList.add("hidden"); // Hide the chatbot
+  // Optionally refresh the chatbot by clearing its contents
+  const chatbotBody = document.getElementById("chatbot-body");
+  chatbotBody.innerHTML = ""; // Clear messages or reload default content
+});
+
+// Optional: Reopen chatbot functionality (add a button to open it again)
+const openButton = document.getElementById("open-btn"); // Assuming you have an open button
+if (openButton) {
+  openButton.addEventListener("click", () => {
+    chatbotContainer.classList.remove("hidden");
+  });
+}
