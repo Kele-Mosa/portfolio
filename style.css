@@ -370,6 +370,110 @@ header{
       .container .container__box .box a:hover{
         background: #908080;
       }
+
+      /* About Experience */
+
+      /* Layout Grid */ 
+
+.layout-grid { 
+
+  display: grid; 
+
+  grid-template-columns: repeat(3, 1fr); 
+
+  gap: 40px; 
+
+  width: 80%; 
+
+  margin: 100px auto; 
+
+} 
+
+
+
+/* Experience Section */ 
+
+.experience-section { 
+
+  grid-column: 1 / 2; 
+
+  background-color: rgb(34, 182, 187); 
+
+  padding: 20px; 
+
+  box-shadow: 0px 4px 10px rgba(134, 0, 0, 0.1); 
+
+  border-radius: 12px; 
+
+} 
+
+
+
+.experience-section h1 , .education-section h1 , .tech-stack-section h1{ 
+
+  font-family: 'Playfair Display', serif; 
+
+  color: #2d2d2d; 
+
+} 
+
+.tech-stack-section h2 , h3{ 
+
+  font-family: 'Playfair Display', serif; 
+
+} 
+
+
+
+.experience-section p { 
+
+  font-size: 18px; 
+
+  color: #333; 
+
+  margin: 30px 0; 
+
+} 
+
+/* Education Section */ 
+
+.education-section { 
+
+  grid-column: 3 / 4; 
+
+  background-color: rgb(34, 182, 187); 
+
+  padding: 20px; 
+
+  box-shadow: 0px 4px 10px #0c0c0e; 
+
+  border-radius: 12px; 
+
+} 
+
+
+
+.education-section h3 { 
+
+  font-family: 'Playfair Display', serif; 
+
+  color: #0c0c0e; 
+
+  margin-bottom: 15px; 
+
+} 
+
+
+
+.education-section p { 
+
+  font-size: 18px; 
+
+  color: #0c0c0e; 
+
+  margin: 10px 0; 
+
+} 
    
       #services {
         padding: 30px 0;
@@ -537,7 +641,7 @@ header{
       right: 20px;
       width: 50px;
       height: 50px;
-      background-color: #4caf50;
+      background-color: #6f19e0;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -574,7 +678,7 @@ header{
    
   /* Header */
   .chatbot header {
-      background-color: #4caf50;
+      background-color: #6f19e0;
       color: white;
       padding: 10px;
       font-size: 18px;
@@ -620,7 +724,7 @@ header{
       margin-left: 10px;
       cursor: pointer;
       font-size: 24px;
-      color: #4caf50;
+      color: #6f19e0;
   }
    
   /* Responsive Adjustments */
