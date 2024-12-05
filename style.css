@@ -758,7 +758,7 @@ header{
           font-size: 12px;
       }
   }
-  #chatbot-container {
+  /* #chatbot-container {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -787,5 +787,5 @@ header{
   .hidden {
     display: none;
   }
-    
+     */
 
