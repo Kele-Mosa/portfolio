@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelebohile Mokone - Software Developer</title>
    <script src="https://kit.fontawesome.com/d6164c1392.js" crossorigin="anonymous"></script>
-    <!-- <script src="https://kit.fontawesome.com/bea53ffddf.js" crossorigin="anonymous"></script>
-  -->
+    <script src="https://kit.fontawesome.com/bea53ffddf.js" crossorigin="anonymous"></script>
+ 
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div id="homes">
@@ -71,8 +71,77 @@
             and procedures, as well as the importance of attention to detail and effective communication in achieving organizational goals. I am well-versed in Software(s) and
             have experience working with ICT, databases, and technical.
         </p>
+
+        <!-- Layout Grid --> 
+
+    <div class="layout-grid"> 
+
+         
+
+        <!-- Experience Section --> 
+
+        <div class="experience-section section"> 
+
+            <h1>Work Experience</h1> 
+
+            <p>Vodacom: ICT Intern : Jul 2021 to May 2022  
+                
+                <h1>My responsibilities include:</h1>  
+
+                       <h3>• Software & Hardware Instructor</h3>
+                       <h3> • Maintain all technical equipment's</h3> 
+                      <h3> • Installing APKs in tablets at Schools In my time at Vodacom, developed strong technical skills, and Microsoft office skills, 
+                         along with communication, time management.</h3> </p> 
+
+            <p>
+                IT Specialist Intern– Touchnet Telecommunications Jun 2023 – Oct 2024 
+                
+                <h1>My responsibilities include:</h1>
+                 <h3>• Networking</h3>  
+                 <h3>• Technical Support</h3> </p> 
+
+            <p>Capaciti: September 2024 to Present</p> 
+
+        </div>
+
+        <!-- Education Section --> 
+
+        <div class="education-section section"> 
+            
+            <h2>Education</h2> 
+            <h1>University of Technology : Feb 2015 to Dec 2019</h1> 
+            <p>National Diploma in Information Technology : Software Development</p> 
+
+            <p>Advaned Diploma in Applied Management</p> 
+
+ 
+
+            <h2>Certification</h2> 
+
+            <h3>• CCNA Routing & Switching: Scaling Network</h3><p> 
+                
+              <h3>• CCNA Routing & Switching: Connecting Network</h3> </p> 
+
+        </div> 
+
+    </div> 
+
+ 
+
+    <script> 
+
+        // Optional: You can add any JS functionality here if needed 
+
+        // For example, you can handle button clicks to slide the sections 
+
+    </script> 
+
+ 
+
+ 
     </section>
 
+    
 
    <!-- --------------services--------------- -->
 <section id="services">
@@ -159,14 +228,14 @@
             <div class="box">
                 <img src="img2/github-sign.png" alt="">
                 <h3>Github</h3>
-                <p>Basic git commands and version control,Repository management and Naigation, collaboration with pull request,</p>
+                <p>Basic git commands and version control,Repository management and Navigation, collaboration with pull request,</p>
                
            
             </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
+    <section id="contact" class="section anchor-link">
         <h2>Contact Me</h2>
         <form id="contact-form">
             <label for="name">Name:</label>
@@ -178,8 +247,62 @@
             <button type="submit">Send Message</button>
         </form>
     </section>
+<!-- Footer Section -->
+<footer id="footer">
+    <div class="footer-container">
+        
+        <!-- <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#homes">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div> -->
+        <div class="footer-socials">
+            <h3>Follow Me</h3>
+            <div class="social-icons">
+                <a href="https://github.com/Kele-Mosa" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kelebohile-mokone/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:your-email@example.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Kelebohile Mokone | All Rights Reserved</p> 
+    </div>
+</footer>
+    <div id="chatbot-icon" class="chatbot-icon">
+        <span class="material-symbols-outlined">chat</span>
+    </div>
 
-    <script src="js/script.js"></script>
+    <!-- Chat Icon --> 
+<!-- 
+<div id="chatIcon">💬</div>  -->
+   
+    <!-- Chatbot Popup -->
+    <div id="chatbot" class="chatbot" style="display: none;">
+        <header>
+            Chatbot
+            <span id="close-btn" class="material-symbols-outlined">close</span>
+        </header>
+        <ul id="chat-window"></ul>
+        <div class="chat-input">
+            <textarea id="chat-message" placeholder="Enter a message..."></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+          <span id="close-btn" class="material-symbols-outlined">close</span>
+        </div>
+        <div id="chatbot-body">
+          <!-- Chatbot messages and input field -->
+        </div>
+      </div>
 </body>
 </html>
-
