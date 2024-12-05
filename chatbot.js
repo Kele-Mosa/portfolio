@@ -56,24 +56,24 @@ document.addEventListener('DOMContentLoaded', () => {
  const portfolioChatbot = (userMessage) => {
     const lowerCaseMessage = userMessage.toLowerCase();
 
-    if (lowerCaseMessage.includes('projects')) {
-        return `Here are some of my recent projects:\n
-1. **Personal Finance Tracker (2023):**  
-   - A web app to help users manage budgets and track expenses.  
-   - Technologies: React, Node.js, MongoDB.  
-   - Check it out [here](#).\n
-2. **AI-Powered Resume Builder (2022):**  
-   - Built an AI-based tool to generate tailored resumes.  
-   - Technologies: Python, Flask, OpenAI API.  
-   - See it live [here](#).\n
-Would you like more details about a specific project?`;
-    }
+//     if (lowerCaseMessage.includes('projects')) {
+//         return `Here are some of my recent projects:\n
+// 1. **Personal Finance Tracker (2023):**  
+//    - A web app to help users manage budgets and track expenses.  
+//    - Technologies: React, Node.js, MongoDB.  
+//    - Check it out [here](#).\n
+// 2. **AI-Powered Resume Builder (2022):**  
+//    - Built an AI-based tool to generate tailored resumes.  
+//    - Technologies: Python, Flask, OpenAI API.  
+//    - See it live [here](#).\n
+// Would you like more details about a specific project?`;
+//     }
 
     if (lowerCaseMessage.includes('skills')) {
         return `Here are my key skills:\n
-- **Programming Languages:** JavaScript, Python, C++\n
+- **Programming Languages:** JavaScript, Python, C#\n
 - **Web Development:** HTML, CSS, React, Node.js\n
-- **Data Analysis:** Pandas, NumPy, Matplotlib\n
+- **Data Analysis:** SQL, Java, SAS\n
 - **Version Control:** Git, GitHub\n
 - **Soft Skills:** Communication, Problem-Solving, Teamwork\n
 Would you like to know how I’ve applied these skills in my projects?`;
@@ -82,33 +82,37 @@ Would you like to know how I’ve applied these skills in my projects?`;
     if (lowerCaseMessage.includes('achievements')) {
         return `I’m proud of these achievements:\n
 1. **Hackathon Winner (2022):** Led a team to build a health monitoring app using IoT.\n
-2. **Dean’s List (2020-2023):** Maintained a GPA of 3.9 throughout my studies.\n
-3. **Certification:** Completed the Google Data Analytics Professional Certificate.\n
+2. **Dean’s List (2015-2020):** Maintained a GPA of 3.9 throughout my studies.\n
+3. **Certification:** Completed CCNA Cisco Certificate.\n
 Want to hear more about one of these?`;
     }
 
     if (lowerCaseMessage.includes('contact')) {
         return `You can reach out to me through:\n
-- **Email:** gradname@example.com\n
-- **LinkedIn:** [linkedin.com/in/gradname](#)\n
-- **GitHub:** [github.com/gradname](#)\n
+- **Email:** kelebohilemokone@gmail.com\n
+- **LinkedIn:** [https://www.linkedin.com/in/kelebohile-mokone/](#)\n
+- **GitHub:** [https://github.com/Kele-Mosa](#)\n
 Feel free to connect with me for collaborations or questions!`;
     }
 
     if (lowerCaseMessage.includes('education')) {
         return `Here’s a summary of my education:\n
-- **Bachelor of Computer Science**  
-  - **Institution:** XYZ University  
-  - **Graduation Date:** May 2023  
+- **National Diploma in Information Technology: Software Development**  
+  - **Institution:** Central University of Technology  
+  - **Graduation Date:** March 2020  
   - **GPA:** 3.9/4.0  
-  - Relevant Courses: Data Structures, Machine Learning, Web Development\n
+  - Relevant Courses: Data Structures, Machine Learning, Software Development
+  
+  - **Advanced Diploma in Applied Management**  
+  - **Institution:** Central University of Technology  
+  - **Graduation Date:** March 2021  
+  - **GPA:** 3.9/4.0  \n
 Would you like to know about my certifications or extracurricular activities?`;
     }
 
     if (lowerCaseMessage.includes('hello') || lowerCaseMessage.includes('hi')) {
-        return `Hello! 👋 Welcome to my portfolio. How can I assist you today?\n
+        return `Hello! 👋 Kele here, Welcome to my portfolio. How can I assist you today?\n
 You can ask about:\n
-- My **projects**\n
 - My **skills**\n
 - My **achievements**\n
 - How to **contact** me`;
@@ -120,18 +124,17 @@ You can ask about:\n
 
     if (lowerCaseMessage.includes('help')) {
         return `I’m here to help! You can ask me about:\n
-- My **projects**\n
 - My **skills**\n
 - My **achievements**\n
 - My **education**\n
 - How to **contact** me`;
     }
 
-    return "I'm here to assist! Could you tell me more about what you're looking for? For example, you can ask about my projects, skills, achievements, or contact details.";
+    return "I'm here to assist! Could you tell me more about what you're looking for? For example, you can ask about my skills, achievements, or contact details.";
 };
 
 // Example usage:
-const userMessage = "Can you tell me about your projects?";
+const userMessage = "Can you tell me about your experience?";
 console.log(portfolioChatbot(userMessage));
  
    
