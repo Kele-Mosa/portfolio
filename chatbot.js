@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (closeButton) {
         closeButton.addEventListener('click', () => {
             chatbotPopup.style.display = 'none'; // Hide chatbot popup
+            chatWindow.innerHTML = '';
         });
     } else {
         console.error('Close button not found');
