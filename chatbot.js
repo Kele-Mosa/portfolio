@@ -81,9 +81,8 @@ Would you like to know how I’ve applied these skills in my projects?`;
 
     if (lowerCaseMessage.includes('achievements')) {
         return `I’m proud of these achievements:\n
-1. **Hackathon Winner (2022):** Led a team to build a health monitoring app using IoT.\n
-2. **Dean’s List (2015-2020):** Maintained a GPA of 3.9 throughout my studies.\n
-3. **Certification:** Completed CCNA Cisco Certificate.\n
+1. **Dean’s List (2015-2020):** Maintained a GPA of 3.9 throughout my studies.\n
+2. **Certification:** Completed CCNA Cisco Certificate.\n
 Want to hear more about one of these?`;
     }
 
